@@ -1,0 +1,46 @@
+.App {
+  margin: 10px;
+}
+.searchDiv {
+  border: 1px solid lightgray;
+  padding: 10px;
+  border-radius: 5px;
+}
+.searchDiv form {
+  display: flex;
+  flex-direction: column;
+}
+.imageList {
+  columns: 250px 5;
+  column-gap: 10px;
+}
+.imageListImg {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+form > label {
+  margin: 1rem 0rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+
+}
+
+form > input {
+  padding: 10px;
+  font-size: 1.5rem;
+  border-radius: 10px;
+}
+
+form > button{
+  width: 5rem;
+  height: 3rem;
+  margin-top: 1.2rem;
+  background-color: green;
+  color: white;
+  border-radius: 10px;
+  border: 3px solid  darkgreen;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+}
